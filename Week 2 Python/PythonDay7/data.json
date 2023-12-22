@@ -1,0 +1,25 @@
+{
+    "people1" : [
+        {
+            "name" : "abcd",
+            "website" : "abcd.com",
+            "from" : "vizag"
+
+        },{
+            "name" : "efgh",
+            "website" : "efgh.com",
+            "from" : "Kashmir"
+
+        }
+    ],
+    "people2" : [
+        {
+            "name" : "ijkl",
+            "website" : "ijkl.com",
+            "from" : "Dehradun"
+        }
+    ]
+
+
+
+}

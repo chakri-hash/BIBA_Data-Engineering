@@ -1,0 +1,77 @@
+#add elements in set
+print('add')
+s=set()
+s.add('a')
+print(s)
+
+s.add('e')
+s.add('i')
+print(s)
+
+s.add('e')# we are adding 'e', but the set has already 'e'. No duplicates allowed
+print(s)
+
+#adding python iterable 
+print('adding tuple and a list')
+se={1,2,3,4,5}
+tu=('r','o',8)
+li=[444,555]
+
+se.add(tu) # adding tuple to set
+print(se)
+se.update(li) # adding list to set
+print(se)
+
+#clear 
+print('clear')
+sett={1,2,3,4}
+sett.clear()
+print(sett)
+
+#copy sets
+print('copy')
+s1={1,2,3,4}
+s2=s1.copy()
+print(s2)
+
+# Python program to demonstrate that copy 
+# created using set copy is shallow
+first = {'g', 'e', 'e', 'k', 's'}
+second = first.copy()
+ 
+# before adding
+print ('before adding: ')
+print ('first: ',first)
+print ('second: ', second) 
+ 
+# Adding element to second, first does not
+# change.
+second.add('f')
+ 
+# after adding
+print ('after adding: ')
+print ('first: ', first)
+print ('second: ', second) 
+
+
+#discard
+print('discard')
+s={1,2,3,4,5,67,89765,90909}
+s.discard(4)
+print(s)
+
+
+numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9}
+ 
+print(numbers)
+ 
+# passing an element that is not in set
+numbers.discard(13)
+# this will not throw any errors but set remains 
+# same as before
+ 
+# printing the resultant set
+print("\nresultant set : ", numbers)
+
+
+
